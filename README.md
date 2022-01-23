@@ -30,14 +30,59 @@ db.stats() -------> to check the status of the database.
 Create database
 
 use nameOfTheDatabase
+
 ![image](https://user-images.githubusercontent.com/64415303/150676438-e4f818fd-f07c-45e2-a983-da4c5b130a28.png)
 
 show dbs ----------> it will show all the available databases.
 
 **Note**: If nothing is inserted in the database then it wont show the name if we execute command "show dbs".
 
-Insert the data using the below command
+**Insert** the data using the below command
 db.databasename.insert({"name":"Ankit"})
 
 ![image](https://user-images.githubusercontent.com/64415303/150676752-4d5a3100-e42b-4b53-8691-609cdd77581c.png)
+
+**Dropping the database**
+
+db.dropDatabase()
+
+**Create Collection**
+
+![image](https://user-images.githubusercontent.com/64415303/150676925-c9143c51-877b-410b-9c47-39f06656805f.png)
+
+**Drop Collection**
+
+![image](https://user-images.githubusercontent.com/64415303/150677016-e7e0873c-f02f-45a2-8001-1a6dd738fff6.png)
+
+**Insert the document in the collection**
+
+![image](https://user-images.githubusercontent.com/64415303/150677272-bc6b86ee-a15c-4a1d-b21a-28175cc74f65.png)
+
+**The insertOne() method**
+
+If you need to insert only one document into a collection you can use this method.
+
+db.COLLECTION_NAME.insertOne(document)
+
+**The insertMany() method**
+
+You can insert multiple documents using the insertMany() method. To this method you need to pass an array of documents.
+
+**The find() Method**
+
+**Get all the data from the document using find()**
+
+![image](https://user-images.githubusercontent.com/64415303/150677415-f2d82896-67e5-424b-8748-8127ab8e88b7.png)
+
+**The pretty() Method**
+
+To display the results in a formatted way, use pretty() method.
+**
+**The findOne() method****
+returns only one document.
+
+![image](https://user-images.githubusercontent.com/64415303/150677593-c91768cb-a1a3-4afc-9998-a8857d5872bc.png)
+
+
+
 
