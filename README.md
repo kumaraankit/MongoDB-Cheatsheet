@@ -83,6 +83,13 @@ returns only one document.
 
 ![image](https://user-images.githubusercontent.com/64415303/150677593-c91768cb-a1a3-4afc-9998-a8857d5872bc.png)
 
+**Update() Method**
+
+The update() method updates the values in document.
+
+![image](https://user-images.githubusercontent.com/64415303/150678748-ec0ff12f-6979-4ebe-9198-0b0deecd966d.png)
+
+**Note**: By default, MongoDB will update only a single document. To update multiple documents, We need to set a parameter 'multi' to true.
 
 
 
